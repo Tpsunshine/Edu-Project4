@@ -12,7 +12,7 @@ app.use(express.static(__dirname+'/public'));
 
 // Connect DB to nodeJS server
 const mongoose = require('mongoose');
-const db = mongoose.connect('mongodb://127.0.0.1:27017/module7data', {
+const db = mongoose.connect('mongodb://127.0.0.1:27017/test', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true

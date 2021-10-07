@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const db = mongoose.connect('mongodb://127.0.0.1:27017/module6data');
+const db = mongoose.connect('mongodb://127.0.0.1:27017/module6');
 const bug = require('./models/bugModel');
 const bodyParser = require('body-parser');
 
